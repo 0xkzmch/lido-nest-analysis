@@ -1,0 +1,21 @@
+revenue_path,rule,buybacks_12m_usd
+flat 31.0M,A cur,0
+flat 31.0M,C cur+f0,0
+flat 31.0M,D 30/100,445327
+flat 31.0M,F ox100f0,0
+flat 33.5M,A cur,0
+flat 33.5M,C cur+f0,0
+flat 33.5M,D 30/100,2945327
+flat 33.5M,F ox100f0,0
+flat 37.7M,A cur,0
+flat 37.7M,C cur+f0,0
+flat 37.7M,D 30/100,7145327
+flat 37.7M,F ox100f0,0
+flat 40.0M,A cur,0
+flat 40.0M,C cur+f0,0
+flat 40.0M,D 30/100,9445327
+flat 40.0M,F ox100f0,2300000
+flat 45.0M,A cur,1945327
+flat 45.0M,C cur+f0,2500000
+flat 45.0M,D 30/100,10000000
+flat 45.0M,F ox100f0,7300000

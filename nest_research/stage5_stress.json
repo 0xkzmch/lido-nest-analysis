@@ -1,0 +1,336 @@
+{
+ "n_paths": 10000,
+ "seed": 55,
+ "shocks": {
+  "expense_sigma_q": 0.15,
+  "oneoff_prob": 0.25,
+  "oneoff_sizes": [
+   3000000.0,
+   6000000.0,
+   10000000.0
+  ],
+  "report_delay_days": [
+   45,
+   120
+  ]
+ },
+ "rules": [
+  {
+   "group": "Benchmark",
+   "name": "Current NEST",
+   "rule": {
+    "family": "threshold",
+    "type": "fixed",
+    "fixed": 40000000.0,
+    "share": 0.5,
+    "basis": "as NEST",
+    "deficit": "accumulates",
+    "with_oneoffs": true
+   },
+   "mc": {
+    "mean": 2256984.206510438,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 8523365.67149525,
+    "p_any": 0.4936,
+    "p_joint": 0.1216,
+    "p_cond": 0.24635332252836303,
+    "peak_mean": 375807.36883018113,
+    "p_peak_1m": 0.1285,
+    "end_mean": -2714679.9881887687,
+    "guard_share": 0.0,
+    "ldo_p50": 0.0,
+    "net_p50": 0.005389858912516702,
+    "p_reduce": 0.2975
+   }
+  },
+  {
+   "group": "Benchmark",
+   "name": "Aksusarya proposal: $30M, 100%",
+   "rule": {
+    "family": "threshold",
+    "type": "fixed",
+    "fixed": 30000000.0,
+    "share": 1.0,
+    "basis": "as NEST",
+    "deficit": "accumulates",
+    "with_oneoffs": true
+   },
+   "mc": {
+    "mean": 6456873.667248926,
+    "p10": 984392.7642749619,
+    "p50": 7773346.867148309,
+    "p90": 10000000.0,
+    "p_any": 1.0,
+    "p_joint": 0.6004,
+    "p_cond": 0.6004,
+    "peak_mean": 4884876.150978389,
+    "p_peak_1m": 0.8886,
+    "end_mean": 3725854.769394413,
+    "guard_share": 0.0,
+    "ldo_p50": 15515577.57276431,
+    "net_p50": -0.0121787911008043,
+    "p_reduce": 0.8095
+   }
+  },
+  {
+   "group": "Minimal fix",
+   "name": "NEST + quarterly debt reset",
+   "rule": {
+    "family": "threshold",
+    "type": "fixed",
+    "fixed": 40000000.0,
+    "share": 0.5,
+    "basis": "as NEST",
+    "deficit": "quarterly reset",
+    "with_oneoffs": true
+   },
+   "mc": {
+    "mean": 2691958.46944193,
+    "p10": 0.0,
+    "p50": 815817.062817547,
+    "p90": 9149578.432140084,
+    "p_any": 0.8718,
+    "p_joint": 0.4725,
+    "p_cond": 0.5419821059876119,
+    "peak_mean": 733125.6817595107,
+    "p_peak_1m": 0.2617,
+    "end_mean": -618121.5950039849,
+    "guard_share": 0.0,
+    "ldo_p50": 1835150.1204963382,
+    "net_p50": 0.0033118756703395405,
+    "p_reduce": 0.3604
+   }
+  },
+  {
+   "group": "Expense threshold",
+   "name": "Known expenses, net, 100%, quarterly reset, no true-up",
+   "rule": {
+    "family": "threshold",
+    "type": "known",
+    "share": 1.0,
+    "basis": "net",
+    "deficit": "quarterly reset",
+    "with_oneoffs": true
+   },
+   "mc": {
+    "mean": 5987786.324747505,
+    "p10": 759854.4907932101,
+    "p50": 6365088.293942325,
+    "p90": 10000000.0,
+    "p_any": 1.0,
+    "p_joint": 0.6004,
+    "p_cond": 0.6004,
+    "peak_mean": 4254668.860345518,
+    "p_peak_1m": 0.8498,
+    "end_mean": 3547924.700837736,
+    "guard_share": 0.0,
+    "ldo_p50": 13790514.982424106,
+    "net_p50": -0.010225462534166844,
+    "p_reduce": 0.7747
+   }
+  },
+  {
+   "group": "True-up $43.8M: final share",
+   "name": "Final share 100%",
+   "rule": {
+    "family": "threshold",
+    "trueup": true,
+    "prov_basis": "budget",
+    "prov_share": 0.5,
+    "full_share": 1.0,
+    "deficit": "accumulates",
+    "with_oneoffs": true
+   },
+   "mc": {
+    "mean": 2126070.093783464,
+    "p10": 0.0,
+    "p50": 44379.546383319146,
+    "p90": 8569934.859780625,
+    "p_any": 0.5284,
+    "p_joint": 0.1586,
+    "p_cond": 0.30015140045420136,
+    "peak_mean": 304785.2088501557,
+    "p_peak_1m": 0.0997,
+    "end_mean": -4106549.9602920488,
+    "guard_share": 0.0,
+    "ldo_p50": 93065.89642065833,
+    "net_p50": 0.0052844782294758945,
+    "p_reduce": 0.3069
+   }
+  },
+  {
+   "group": "True-up $43.8M: final share",
+   "name": "Final share 75%",
+   "rule": {
+    "family": "threshold",
+    "trueup": true,
+    "prov_basis": "budget",
+    "prov_share": 0.5,
+    "full_share": 0.75,
+    "deficit": "accumulates",
+    "with_oneoffs": true
+   },
+   "mc": {
+    "mean": 1997443.875728455,
+    "p10": 0.0,
+    "p50": 43433.886065653554,
+    "p90": 7991044.479301026,
+    "p_any": 0.5286,
+    "p_joint": 0.1561,
+    "p_cond": 0.2953083617101778,
+    "peak_mean": 261945.15582048552,
+    "p_peak_1m": 0.0845,
+    "end_mean": -3630098.5570558617,
+    "guard_share": 0.0,
+    "ldo_p50": 93065.89642065833,
+    "net_p50": 0.0052844782294758945,
+    "p_reduce": 0.2892
+   }
+  },
+  {
+   "group": "True-up $43.8M: final share",
+   "name": "Final share 50%",
+   "rule": {
+    "family": "threshold",
+    "trueup": true,
+    "prov_basis": "budget",
+    "prov_share": 0.5,
+    "full_share": 0.5,
+    "deficit": "accumulates",
+    "with_oneoffs": true
+   },
+   "mc": {
+    "mean": 1821533.9195497078,
+    "p10": 0.0,
+    "p50": 43845.37242985828,
+    "p90": 7111259.967979919,
+    "p_any": 0.5306,
+    "p_joint": 0.1542,
+    "p_cond": 0.29061439879381834,
+    "peak_mean": 234374.67742447168,
+    "p_peak_1m": 0.0732,
+    "end_mean": -3106363.4156959364,
+    "guard_share": 0.0,
+    "ldo_p50": 93851.95588460466,
+    "net_p50": 0.005283588156028937,
+    "p_reduce": 0.2672
+   }
+  },
+  {
+   "group": "True-up: different preliminary run rate",
+   "name": "Base $41M, summary 100%",
+   "rule": {
+    "family": "threshold",
+    "trueup": true,
+    "prov_basis": "budget 41",
+    "prov_share": 0.5,
+    "full_share": 1.0,
+    "deficit": "accumulates",
+    "with_oneoffs": true
+   },
+   "mc": {
+    "mean": 2357903.004432224,
+    "p10": 0.0,
+    "p50": 319862.04713195143,
+    "p90": 9184233.243509116,
+    "p_any": 0.7458,
+    "p_joint": 0.3585,
+    "p_cond": 0.48069187449718426,
+    "peak_mean": 480923.86601595423,
+    "p_peak_1m": 0.1644,
+    "end_mean": -3857156.0764202615,
+    "guard_share": 0.0,
+    "ldo_p50": 717208.1029014813,
+    "net_p50": 0.004577747465972008,
+    "p_reduce": 0.3311
+   }
+  },
+  {
+   "group": "True-up $43.8M with safeguards",
+   "name": "+ liquid treasury protection 18 mo",
+   "rule": {
+    "family": "threshold",
+    "trueup": true,
+    "prov_basis": "budget",
+    "prov_share": 0.5,
+    "full_share": 1.0,
+    "deficit": "accumulates",
+    "with_oneoffs": true,
+    "guard_liquid_months": 18,
+    "haircut": 0.3
+   },
+   "mc": {
+    "mean": 2112100.8755047484,
+    "p10": 0.0,
+    "p50": 38335.747044760035,
+    "p90": 8543059.811218627,
+    "p_any": 0.5246,
+    "p_joint": 0.1548,
+    "p_cond": 0.29508196721311475,
+    "peak_mean": 292641.3911623243,
+    "p_peak_1m": 0.0951,
+    "end_mean": -4092580.7420133334,
+    "guard_share": 0.054,
+    "ldo_p50": 82320.50913994265,
+    "net_p50": 0.005296645481871569,
+    "p_reduce": 0.3027
+   }
+  },
+  {
+   "group": "True-up $43.8M with safeguards",
+   "name": "+ buy only if LDO ≤ MA90",
+   "rule": {
+    "family": "threshold",
+    "trueup": true,
+    "prov_basis": "budget",
+    "prov_share": 0.5,
+    "full_share": 1.0,
+    "deficit": "accumulates",
+    "with_oneoffs": true,
+    "price_k": 1.0
+   },
+   "mc": {
+    "mean": 1490006.318415447,
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 5500587.488102882,
+    "p_any": 0.4995,
+    "p_joint": 0.1392,
+    "p_cond": 0.2786786786786787,
+    "peak_mean": 215502.76584141736,
+    "p_peak_1m": 0.0693,
+    "end_mean": -3470486.184924032,
+    "guard_share": 0.0,
+    "ldo_p50": 0.0,
+    "net_p50": 0.005389858912516702,
+    "p_reduce": 0.2643
+   }
+  },
+  {
+   "group": "Revenue share without threshold",
+   "name": "10% of net revenue",
+   "rule": {
+    "family": "revshare",
+    "pct": 0.1,
+    "with_oneoffs": true
+   },
+   "mc": {
+    "mean": 3714944.019059172,
+    "p10": 2280757.3012699797,
+    "p50": 3453265.2277808017,
+    "p90": 5474541.235205358,
+    "p_any": 1.0,
+    "p_joint": 0.6004,
+    "p_cond": 0.6004,
+    "peak_mean": 2402506.039526795,
+    "p_peak_1m": 0.872,
+    "end_mean": 4479.098905304916,
+    "guard_share": 0.0,
+    "ldo_p50": 10961551.932003934,
+    "net_p50": -0.007022161754652643,
+    "p_reduce": 0.9503
+   }
+  }
+ ]
+}

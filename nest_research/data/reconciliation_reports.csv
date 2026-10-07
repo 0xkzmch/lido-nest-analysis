@@ -1,0 +1,36 @@
+period,metric,value,source,note
+2024,onchain_treasury_inflow_musd,51.54,data/treasury_inflows_priced.csv (Chainlink oracle prices),
+2025,onchain_treasury_inflow_musd,41.5,data/treasury_inflows_priced.csv (Chainlink oracle prices),
+Q1 2026,onchain_treasury_inflow_musd,9.29,data/treasury_inflows_priced.csv (Chainlink oracle prices),
+Q2 2026,onchain_treasury_inflow_musd,7.68,data/treasury_inflows_priced.csv (Chainlink oracle prices),
+H1 2026,onchain_treasury_inflow_musd,16.97,data/treasury_inflows_priced.csv (Chainlink oracle prices),
+2024,report_net_staking_revenue_musd,48.5,"GOOSE-2025 & EGGs-2025 Final Report, research.lido.fi/t/11304",
+2024,report_deposit_referrals_musd,3.1,"GOOSE-2025 & EGGs-2025 Final Report, research.lido.fi/t/11304",
+2024,report_treasury_management_musd,3.9,"GOOSE-2025 & EGGs-2025 Final Report, research.lido.fi/t/11304",
+2024,report_total_revenue_musd,52.4,"GOOSE-2025 & EGGs-2025 Final Report, research.lido.fi/t/11304",
+2025,report_net_staking_revenue_musd,37.4,"GOOSE-2025 & EGGs-2025 Final Report, research.lido.fi/t/11304",
+2025,report_deposit_referrals_musd,4.1,"GOOSE-2025 & EGGs-2025 Final Report, research.lido.fi/t/11304",
+2025,report_treasury_management_musd,2.7,"GOOSE-2025 & EGGs-2025 Final Report, research.lido.fi/t/11304",
+2025,report_lido_earn_musd,0.3,"GOOSE-2025 & EGGs-2025 Final Report, research.lido.fi/t/11304",
+2025,report_total_revenue_musd,40.5,"GOOSE-2025 & EGGs-2025 Final Report, research.lido.fi/t/11304",
+Q1 2026,report_staking_gross_revenue_musd,14.99,"GOOSE-2026 & EGGs-2026 H1 Report, lido.fi/ldo-hub/reports/h1-2026 (P&L)",full 10% protocol fee
+Q1 2026,report_staking_revenue_deductions_musd,6.36,"GOOSE-2026 & EGGs-2026 H1 Report, lido.fi/ldo-hub/reports/h1-2026 (P&L)","node operators + other, one line"
+Q1 2026,report_net_staking_revenue_musd,8.63,"GOOSE-2026 & EGGs-2026 H1 Report, lido.fi/ldo-hub/reports/h1-2026 (P&L)",
+Q1 2026,report_total_net_dao_revenue_musd,8.83,"GOOSE-2026 & EGGs-2026 H1 Report, lido.fi/ldo-hub/reports/h1-2026 (P&L)",
+Q2 2026,report_staking_gross_revenue_musd,12.52,"GOOSE-2026 & EGGs-2026 H1 Report, lido.fi/ldo-hub/reports/h1-2026 (P&L)",full 10% protocol fee
+Q2 2026,report_staking_revenue_deductions_musd,5.44,"GOOSE-2026 & EGGs-2026 H1 Report, lido.fi/ldo-hub/reports/h1-2026 (P&L)","node operators + other, one line"
+Q2 2026,report_net_staking_revenue_musd,7.08,"GOOSE-2026 & EGGs-2026 H1 Report, lido.fi/ldo-hub/reports/h1-2026 (P&L)",
+Q2 2026,report_total_net_dao_revenue_musd,7.11,"GOOSE-2026 & EGGs-2026 H1 Report, lido.fi/ldo-hub/reports/h1-2026 (P&L)",
+H1 2026,report_staking_gross_revenue_musd,27.51,"GOOSE-2026 & EGGs-2026 H1 Report, lido.fi/ldo-hub/reports/h1-2026 (P&L)",full 10% protocol fee
+H1 2026,report_staking_revenue_deductions_musd,11.8,"GOOSE-2026 & EGGs-2026 H1 Report, lido.fi/ldo-hub/reports/h1-2026 (P&L)","node operators + other, one line"
+H1 2026,report_net_staking_revenue_musd,15.71,"GOOSE-2026 & EGGs-2026 H1 Report, lido.fi/ldo-hub/reports/h1-2026 (P&L)",
+H1 2026,report_total_net_dao_revenue_musd,15.94,"GOOSE-2026 & EGGs-2026 H1 Report, lido.fi/ldo-hub/reports/h1-2026 (P&L)",
+2024,derived_onchain_minus_net_musd,3.04,derived,= referrals/other deductions
+2025,derived_onchain_minus_net_musd,4.1,derived,= referrals/other deductions
+Q1 2026,derived_onchain_minus_net_musd,0.66,derived,= referrals/other deductions
+Q1 2026,derived_treasury_share_of_gross_fee_pct,62.0,derived,onchain / report gross fee
+Q2 2026,derived_onchain_minus_net_musd,0.6,derived,= referrals/other deductions
+Q2 2026,derived_treasury_share_of_gross_fee_pct,61.3,derived,onchain / report gross fee
+H1 2026,derived_onchain_minus_net_musd,1.26,derived,= referrals/other deductions
+H1 2026,derived_treasury_share_of_gross_fee_pct,61.7,derived,onchain / report gross fee
+2026-09-28,staking_router_aggregate_treasury_pct_of_rewards,6.17,"StakingRouter 0xFdDf38947aFB03C621C71b06C9C70bce73f12999, getStakingFeeAggregateDistributionE4Precision(), read 2026-09-28",modules 3.82%

@@ -1,0 +1,111 @@
+{
+ "flat": {
+  "2600": {
+   "no adjustment": {
+    "first_day": null,
+    "total": 0.0
+   },
+   "adjustment +$147,658 (revenue 11–14.08)": {
+    "first_day": null,
+    "total": 0.0
+   },
+   "adjustment +$273,973 (reserve from 15.08)": {
+    "first_day": null,
+    "total": 0.0
+   }
+  },
+  "2680": {
+   "no adjustment": {
+    "first_day": null,
+    "total": 0.0
+   },
+   "adjustment +$147,658 (revenue 11–14.08)": {
+    "first_day": null,
+    "total": 0.0
+   },
+   "adjustment +$273,973 (reserve from 15.08)": {
+    "first_day": null,
+    "total": 0.0
+   }
+  },
+  "2800": {
+   "no adjustment": {
+    "first_day": 201,
+    "total": 443494.49261373305
+   },
+   "adjustment +$147,658 (revenue 11–14.08)": {
+    "first_day": 146,
+    "total": 591152.4926137341
+   },
+   "adjustment +$273,973 (reserve from 15.08)": {
+    "first_day": 99,
+    "total": 717467.4926137369
+   }
+  },
+  "3000": {
+   "no adjustment": {
+    "first_day": 79,
+    "total": 1942490.0792289944
+   },
+   "adjustment +$147,658 (revenue 11–14.08)": {
+    "first_day": 58,
+    "total": 2090148.0792289933
+   },
+   "adjustment +$273,973 (reserve from 15.08)": {
+    "first_day": 39,
+    "total": 2216463.0792289963
+   }
+  },
+  "3200": {
+   "no adjustment": {
+    "first_day": 49,
+    "total": 3441485.6658442914
+   },
+   "adjustment +$147,658 (revenue 11–14.08)": {
+    "first_day": 36,
+    "total": 3589143.665844293
+   },
+   "adjustment +$273,973 (reserve from 15.08)": {
+    "first_day": 24,
+    "total": 3715458.6658442942
+   }
+  },
+  "3500": {
+   "no adjustment": {
+    "first_day": 31,
+    "total": 5689979.045767165
+   },
+   "adjustment +$147,658 (revenue 11–14.08)": {
+    "first_day": 23,
+    "total": 5837637.045767165
+   },
+   "adjustment +$273,973 (reserve from 15.08)": {
+    "first_day": 15,
+    "total": 5963952.045767165
+   }
+  }
+ },
+ "mc": {
+  "no adjustment": {
+   "p90": 0.25175,
+   "p180": 0.39975,
+   "p365": 0.4925,
+   "median_first": 89.0,
+   "mean_total": 2302768.637968031
+  },
+  "adjustment +$147,658 (revenue 11–14.08)": {
+   "p90": 0.31575,
+   "p180": 0.44075,
+   "p365": 0.5245,
+   "median_first": 75.0,
+   "mean_total": 2372876.52089946
+  },
+  "adjustment +$273,973 (reserve from 15.08)": {
+   "p90": 0.383,
+   "p180": 0.4815,
+   "p365": 0.55875,
+   "median_first": 58,
+   "mean_total": 2436861.452173601
+  }
+ }
+}

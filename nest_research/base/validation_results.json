@@ -1,0 +1,47 @@
+[
+ {
+  "check": "One inflow per UTC day, no gaps",
+  "pass": true,
+  "detail": "1002 rows, 1002 unique days, expected 1002 (2024-01-01..2026-09-28)"
+ },
+ {
+  "check": "Every inflow is inside a TokenRebased tx",
+  "pass": true,
+  "detail": "1002/1002"
+ },
+ {
+  "check": "Every rebase since 2024 has exactly one treasury inflow",
+  "pass": true,
+  "detail": "1002 rebases vs 1002 inflows"
+ },
+ {
+  "check": "ETH/USD price fresh (<= 3600s heartbeat + 60s tolerance)",
+  "pass": true,
+  "detail": "2/1002 rows exceed 3600s by 24s and 36s (flagged in CSV, price_flag); median age 1416s"
+ },
+ {
+  "check": "stETH/ETH price fresh (<= 86400s heartbeat)",
+  "pass": true,
+  "detail": "max age 85644s"
+ },
+ {
+  "check": "No negative ages (price not from the future)",
+  "pass": true,
+  "detail": "ok"
+ },
+ {
+  "check": "NEST-computed treasury stETH == actual treasury stETH (same rebase tx)",
+  "pass": true,
+  "detail": "45 matched rebases, max abs diff 0.000e+00 stETH, sums 1836.1885 vs 1836.1885"
+ },
+ {
+  "check": "USD valuation vs NEST meter (rebases before last checkpoint)",
+  "pass": true,
+  "detail": "44 rebases; stETH converted by NEST 1793.2227 == inflows 1793.2227; USD ours $4,379,657.84 vs meter $4,381,599.99 at checkpoint tx 0x1dd75d32a4be01461b8c0066766ca19bd3c8c41b3b7cf62f008d970abcf6540a (-0.044%, pricing-moment difference)"
+ },
+ {
+  "check": "NEST budget = 50% x (meter revenue - $109,589 x reserve slots), slots incl. activation day",
+  "pass": true,
+  "detail": "32 checkpoints, max abs error $0.00"
+ }
+]
