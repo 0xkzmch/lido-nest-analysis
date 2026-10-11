@@ -1,0 +1,226 @@
+{
+ "budget_table": {
+  "with_treasury_income": {
+   "28000000.0": {
+    "avg_buybacks": 5330167.550445149,
+    "median_buybacks": 4159666.817813361,
+    "p_any_purchase": 0.924,
+    "p_loss_year_given_purchase": 0.03354978354978355,
+    "avg_dao_profit_before_buybacks": 15408731.66820298,
+    "avg_ldo_bought": 11695888.550631315
+   },
+   "30000000.0": {
+    "avg_buybacks": 4712657.350410192,
+    "median_buybacks": 3183741.912464047,
+    "p_any_purchase": 0.889,
+    "p_loss_year_given_purchase": 0.05736782902137233,
+    "avg_dao_profit_before_buybacks": 13587611.382971227,
+    "avg_ldo_bought": 10048197.03727557
+   },
+   "32000000.0": {
+    "avg_buybacks": 4130973.6336909845,
+    "median_buybacks": 2350010.9206435164,
+    "p_any_purchase": 0.82,
+    "p_loss_year_given_purchase": 0.06707317073170732,
+    "avg_dao_profit_before_buybacks": 11766491.09773948,
+    "avg_ldo_bought": 8546851.64890746
+   },
+   "34000000.0": {
+    "avg_buybacks": 3594799.6629581344,
+    "median_buybacks": 1584713.9613759834,
+    "p_any_purchase": 0.74,
+    "p_loss_year_given_purchase": 0.06756756756756757,
+    "avg_dao_profit_before_buybacks": 9945370.812507728,
+    "avg_ldo_bought": 7228663.516458633
+   },
+   "35000000.0": {
+    "avg_buybacks": 3347449.280583225,
+    "median_buybacks": 1257693.3448427496,
+    "p_any_purchase": 0.694,
+    "p_loss_year_given_purchase": 0.07492795389048991,
+    "avg_dao_profit_before_buybacks": 9034810.669891851,
+    "avg_ldo_bought": 6640219.1291423775
+   },
+   "36000000.0": {
+    "avg_buybacks": 3115627.6453517657,
+    "median_buybacks": 946319.9977867566,
+    "p_any_purchase": 0.64,
+    "p_loss_year_given_purchase": 0.0703125,
+    "avg_dao_profit_before_buybacks": 8124250.527275976,
+    "avg_ldo_bought": 6098156.767176293
+   },
+   "38000000.0": {
+    "avg_buybacks": 2689147.9209775,
+    "median_buybacks": 386886.24953251495,
+    "p_any_purchase": 0.556,
+    "p_loss_year_given_purchase": 0.06654676258992806,
+    "avg_dao_profit_before_buybacks": 6303130.242044227,
+    "avg_ldo_bought": 5129954.705751005
+   },
+   "40000000.0": {
+    "avg_buybacks": 2315316.7544517717,
+    "median_buybacks": 0.0,
+    "p_any_purchase": 0.472,
+    "p_loss_year_given_purchase": 0.038135593220338986,
+    "avg_dao_profit_before_buybacks": 4482009.956812475,
+    "avg_ldo_bought": 4310174.333063881
+   },
+   "42000000.0": {
+    "avg_buybacks": 1993642.3735285318,
+    "median_buybacks": 0.0,
+    "p_any_purchase": 0.413,
+    "p_loss_year_given_purchase": 0.06295399515738499,
+    "avg_dao_profit_before_buybacks": 2660889.6715807235,
+    "avg_ldo_bought": 3630117.2165518543
+   },
+   "43800000.0": {
+    "avg_buybacks": 1739028.6746832472,
+    "median_buybacks": 0.0,
+    "p_any_purchase": 0.358,
+    "p_loss_year_given_purchase": 0.0670391061452514,
+    "avg_dao_profit_before_buybacks": 1021881.4148721473,
+    "avg_ldo_bought": 3104747.8365539326
+   },
+   "current NEST": {
+    "avg_buybacks": 2315316.7544517717,
+    "median_buybacks": 0.0,
+    "p_any_purchase": 0.472,
+    "p_loss_year_given_purchase": 0.13983050847457626,
+    "avg_dao_profit_before_buybacks": 1021881.4148721473,
+    "avg_ldo_bought": 4310174.333063881
+   }
+  },
+  "without_treasury_income": {
+   "28000000.0": {
+    "avg_buybacks": 5330167.550445149,
+    "median_buybacks": 4159666.817813361,
+    "p_any_purchase": 0.924,
+    "p_loss_year_given_purchase": 0.10064935064935066,
+    "avg_dao_profit_before_buybacks": 12585527.248313477,
+    "avg_ldo_bought": 11695888.550631315
+   },
+   "30000000.0": {
+    "avg_buybacks": 4712657.350410192,
+    "median_buybacks": 3183741.912464047,
+    "p_any_purchase": 0.889,
+    "p_loss_year_given_purchase": 0.12598425196850394,
+    "avg_dao_profit_before_buybacks": 10764406.963081725,
+    "avg_ldo_bought": 10048197.03727557
+   },
+   "32000000.0": {
+    "avg_buybacks": 4130973.6336909845,
+    "median_buybacks": 2350010.9206435164,
+    "p_any_purchase": 0.82,
+    "p_loss_year_given_purchase": 0.14146341463414633,
+    "avg_dao_profit_before_buybacks": 8943286.677849976,
+    "avg_ldo_bought": 8546851.64890746
+   },
+   "34000000.0": {
+    "avg_buybacks": 3594799.6629581344,
+    "median_buybacks": 1584713.9613759834,
+    "p_any_purchase": 0.74,
+    "p_loss_year_given_purchase": 0.14324324324324325,
+    "avg_dao_profit_before_buybacks": 7122166.392618223,
+    "avg_ldo_bought": 7228663.516458633
+   },
+   "35000000.0": {
+    "avg_buybacks": 3347449.280583225,
+    "median_buybacks": 1257693.3448427496,
+    "p_any_purchase": 0.694,
+    "p_loss_year_given_purchase": 0.14697406340057637,
+    "avg_dao_profit_before_buybacks": 6211606.250002347,
+    "avg_ldo_bought": 6640219.1291423775
+   },
+   "36000000.0": {
+    "avg_buybacks": 3115627.6453517657,
+    "median_buybacks": 946319.9977867566,
+    "p_any_purchase": 0.64,
+    "p_loss_year_given_purchase": 0.1359375,
+    "avg_dao_profit_before_buybacks": 5301046.107386472,
+    "avg_ldo_bought": 6098156.767176293
+   },
+   "38000000.0": {
+    "avg_buybacks": 2689147.9209775,
+    "median_buybacks": 386886.24953251495,
+    "p_any_purchase": 0.556,
+    "p_loss_year_given_purchase": 0.12949640287769784,
+    "avg_dao_profit_before_buybacks": 3479925.8221547226,
+    "avg_ldo_bought": 5129954.705751005
+   },
+   "40000000.0": {
+    "avg_buybacks": 2315316.7544517717,
+    "median_buybacks": 0.0,
+    "p_any_purchase": 0.472,
+    "p_loss_year_given_purchase": 0.12076271186440678,
+    "avg_dao_profit_before_buybacks": 1658805.536922971,
+    "avg_ldo_bought": 4310174.333063881
+   },
+   "42000000.0": {
+    "avg_buybacks": 1993642.3735285318,
+    "median_buybacks": 0.0,
+    "p_any_purchase": 0.413,
+    "p_loss_year_given_purchase": 0.1234866828087167,
+    "avg_dao_profit_before_buybacks": -162314.7483087809,
+    "avg_ldo_bought": 3630117.2165518543
+   },
+   "43800000.0": {
+    "avg_buybacks": 1739028.6746832472,
+    "median_buybacks": 0.0,
+    "p_any_purchase": 0.358,
+    "p_loss_year_given_purchase": 0.10335195530726257,
+    "avg_dao_profit_before_buybacks": -1801323.0050173574,
+    "avg_ldo_bought": 3104747.8365539326
+   },
+   "current NEST": {
+    "avg_buybacks": 2315316.7544517717,
+    "median_buybacks": 0.0,
+    "p_any_purchase": 0.472,
+    "p_loss_year_given_purchase": 0.2605932203389831,
+    "avg_dao_profit_before_buybacks": -1801323.0050173574,
+    "avg_ldo_bought": 4310174.333063881
+   }
+  }
+ },
+ "reset_3y": {
+  "with_treasury_income": {
+   "accumulates (current)": {
+    "avg_buybacks_per_year": 2741885.3477132786,
+    "share_of_years_with_purchases": 0.4176666666666667,
+    "p_loss_year_given_purchase": 0.13567438148443736,
+    "share_of_buyback_usd_in_loss_years": 0.022170789827032904
+   },
+   "yearly reset": {
+    "avg_buybacks_per_year": 2962501.22392513,
+    "share_of_years_with_purchases": 0.5113333333333333,
+    "p_loss_year_given_purchase": 0.2105606258148631,
+    "share_of_buyback_usd_in_loss_years": 0.025895072644865475
+   },
+   "quarterly reset": {
+    "avg_buybacks_per_year": 3050532.1349887303,
+    "share_of_years_with_purchases": 0.5696666666666667,
+    "p_loss_year_given_purchase": 0.2884727911059099,
+    "share_of_buyback_usd_in_loss_years": 0.034517635229975564
+   }
+  },
+  "without_treasury_income": {
+   "accumulates (current)": {
+    "avg_buybacks_per_year": 2741885.3477132786,
+    "share_of_years_with_purchases": 0.4176666666666667,
+    "p_loss_year_given_purchase": 0.20430965682362331,
+    "share_of_buyback_usd_in_loss_years": 0.038118315627245984
+   },
+   "yearly reset": {
+    "avg_buybacks_per_year": 2962501.22392513,
+    "share_of_years_with_purchases": 0.5113333333333333,
+    "p_loss_year_given_purchase": 0.3057366362451108,
+    "share_of_buyback_usd_in_loss_years": 0.047176659455341594
+   },
+   "quarterly reset": {
+    "avg_buybacks_per_year": 3050532.1349887303,
+    "share_of_years_with_purchases": 0.5696666666666667,
+    "p_loss_year_given_purchase": 0.3762434172030427,
+    "share_of_buyback_usd_in_loss_years": 0.06068939447527819
+   }
+  }
+ }
+}
