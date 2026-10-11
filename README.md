@@ -40,6 +40,12 @@ historical and forecast results, sheets with the document's summary figures. For
 
 **Spreadsheet build**: build_xlsx*.py (history of build versions); stage1v3.py and stage2v3.py recalculate the Stage1 and Stage2 sheets.
 
+## Follow-up calculations (October 2026)
+Run after the first round of discussion on the forum. They use the same engine and assumptions, with two changes: CSM rebates are not added to DAO profit separately, and DAO profit is shown both with and without treasury income.
+- nest_research/followup_budget_reset.py: (1) NEST threshold equal to the approved budget for budgets from $28M to $43.8M, share 50%, 12 months from 1 October 2026; (2) yearly and quarterly reset of the NEST deficit compared with the current accumulating deficit over 3 years
+- nest_research/followup_budget_reset_results.json: results (1,000 ETH and LDO price paths, seed 20261011)
+
+Run `python3 followup_budget_reset.py` from the nest_research folder. Because the price paths are a new set, the figures differ slightly from the report tables.
 
 ## How to reproduce
 Python 3 with the standard library and openpyxl. Engine self-check: `python3 gengine.py`
